@@ -145,7 +145,37 @@ Document Preview Features:
 
 ## Deployment
 
-### Render.com Deployment (Recommended)
+### 🆓 GitHub Pages (100% Free - No External Hosting!)
+
+**Get a live link directly from GitHub - completely FREE:**
+
+**Frontend Demo URL**: `https://buthuruvenkatareddy.github.io/KnowledgeForge/`
+
+**📋 How to Enable GitHub Pages:**
+
+1. **Go to your GitHub repository settings**
+   - Navigate to: `Settings` → `Pages`
+
+2. **Configure GitHub Pages**:
+   - Source: `Deploy from a branch`
+   - Branch: `main` 
+   - Folder: `/ (root)`
+
+3. **Create GitHub Actions workflow**:
+   ```bash
+   # Create .github/workflows/deploy.yml
+   mkdir -p .github/workflows
+   ```
+
+4. **Your site will be live at**: `https://yourusername.github.io/KnowledgeForge/`
+
+**⚠️ Note**: GitHub Pages only hosts static frontend. For full AI functionality, you'll need backend hosting (see options below).
+
+**🎯 Perfect for**: Portfolio showcase, UI demonstration, static content
+
+---
+
+### Render.com Deployment (Full-Stack)
 
 This project is configured for easy deployment on Render.com:
 
