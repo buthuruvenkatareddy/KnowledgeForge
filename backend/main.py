@@ -60,7 +60,12 @@ if os.path.exists(frontend_dist_path):
 @app.on_event("startup")
 async def startup_event():
     """Initialize database on startup"""
-    init_db()
+    try:
+        init_db()
+        print("✅ Database initialized successfully")
+    except Exception as e:
+        print(f"⚠️ Database initialization failed: {e}")
+        print("📝 Continuing without database - some features may be limited")
 
 @app.get("/")
 async def root():
