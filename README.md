@@ -1,6 +1,5 @@
-## KnowledgeForge
-
-##  Project Overview
+# KnowledgeForge
+## 📋 Project Overview
 
 Built by Venkat Buthuru, KnowledgeForge is an intelligent AI-powered knowledge management system that transforms your documents into an interactive, searchable knowledge base. This application allows users to upload various document formats (PDFs, Word documents, text files) and then engage in natural language conversations with an AI assistant that understands the content of their documents.
 
@@ -54,14 +53,14 @@ Development Tools
 - Git - Version control system
 - VS Code - Recommended code editor with excellent Python and React support
 
-Application Screenshots
+Application Screenshots:
 
 Landing Pages:
 
-![Landing Page Screenshot 1](knowledgeforge_application_screenshots/1.png)
-![Landing Page Screenshot 2](knowledgeforge_application_screenshots/2.png)
-![Landing Page Screenshot 3](knowledgeforge_application_screenshots/3.png)
-![Landing Page Screenshot 4](knowledgeforge_application_screenshots/4.png)
+![Landing Page Screenshot 1](KnowledgeForge_Application_ScreenShots/1.png)
+![Landing Page Screenshot 2](KnowledgeForge_Application_ScreenShots/2.png)
+![Landing Page Screenshot 3](KnowledgeForge_Application_ScreenShots/3.png)
+![Landing Page Screenshot 4](KnowledgeForge_Application_ScreenShots/4.png)
 
 Landing Page Features:
 - Professional Hero Section: Eye-catching introduction with gradient backgrounds and modern typography
@@ -73,7 +72,7 @@ Landing Page Features:
 
 Sign In Page:
 
-![Sign In Page](knowledgeforge_application_screenshots/5.png)
+![Sign In Page](KnowledgeForge_Application_ScreenShots/5.png)
 
 **Sign In Page Features:
 - Clean Login Form: Simple and intuitive email/password authentication
@@ -85,7 +84,7 @@ Sign In Page:
 
 Create Account Page:
 
-![Create Account Page](knowledgeforge_application_screenshots/6.png)
+![Create Account Page](KnowledgeForge_Application_ScreenShots/6.png)
 
 Create Account Page Features:**
 - User Registration Form: Comprehensive signup with full name, email, and password
@@ -97,7 +96,7 @@ Create Account Page Features:**
 
 Dashboard Page:
 
-![Dashboard Page](knowledgeforge_application_screenshots/7.png)
+![Dashboard Page](KnowledgeForge_Application_ScreenShots/7.png)
 
 Dashboard Page Features:
 - Statistics Overview: Visual cards showing total documents, completed processing, and error counts
@@ -109,7 +108,7 @@ Dashboard Page Features:
 
 Documents Page:
 
-![Documents Page](knowledgeforge_application_screenshots/8.png)
+![Documents Page](KnowledgeForge_Application_ScreenShots/8.png)
 
 Documents Page Features:
 - Document Library: Complete list of all uploaded documents with metadata
@@ -121,7 +120,7 @@ Documents Page Features:
 
 Chat Page:
 
-![Chat Page](knowledgeforge_application_screenshots/9.png)
+![Chat Page](KnowledgeForge_Application_ScreenShots/9.png)
 
 Chat Page Features:
 - Conversation Sidebar: Organized list of all chat sessions with timestamps
@@ -134,7 +133,7 @@ Chat Page Features:
 
 Document Preview:
 
-![Document Preview](knowledgeforge_application_screenshots/10.png)
+![Document Preview](KnowledgeForge_Application_ScreenShots/10.png)
 
 Document Preview Features:
 - Full Document Viewer: Complete document content display with original formatting
@@ -167,6 +166,40 @@ This project is configured for easy deployment on Render.com:
    - Frontend automatically uses relative URLs (`/api/v1`) in production
    - No manual configuration needed for standard deployments
    - For custom domains, set `VITE_API_URL` in frontend environment variables
+
+### Alternative Free Deployment Options
+
+If you want to get your own live link, here are other free platforms you can use:
+
+**🔥 Recommended Free Platforms:**
+
+1. **Vercel** (Frontend + Serverless Functions)
+   - Free tier with generous limits
+   - Easy GitHub integration
+   - Perfect for React + API deployment
+   - URL: `https://yourapp.vercel.app`
+
+2. **Railway** 
+   - Free $5/month credit
+   - Full-stack deployment
+   - PostgreSQL included
+   - URL: `https://yourapp.railway.app`
+
+3. **Heroku** (with limitations)
+   - Free tier available with sleep mode
+   - PostgreSQL addon available
+   - URL: `https://yourapp.herokuapp.com`
+
+4. **Netlify** (Static sites + Functions)
+   - Great for frontend deployment
+   - Serverless functions for API
+   - URL: `https://yourapp.netlify.app`
+
+**📋 Quick Deploy Instructions:**
+1. Fork this repository to your GitHub
+2. Connect your repository to chosen platform
+3. Set environment variables (DATABASE_URL, OPENAI_API_KEY)
+4. Deploy with one click!
 
 ### Manual Deployment
 
