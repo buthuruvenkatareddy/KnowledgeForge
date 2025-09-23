@@ -1,4 +1,7 @@
 # KnowledgeForge
+
+🚀 **Live Demo**: [https://buthuruvenkatareddy.github.io/KnowledgeForge/](https://buthuruvenkatareddy.github.io/KnowledgeForge/)
+
 ## 📋 Project Overview
 
 Built by Venkat Buthuru, KnowledgeForge is an intelligent AI-powered knowledge management system that transforms your documents into an interactive, searchable knowledge base. This application allows users to upload various document formats (PDFs, Word documents, text files) and then engage in natural language conversations with an AI assistant that understands the content of their documents.
