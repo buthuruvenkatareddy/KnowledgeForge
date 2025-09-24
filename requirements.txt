@@ -25,3 +25,10 @@ aiofiles==24.1.0
 pydantic==2.10.3
 pydantic-settings==2.7.0
 email-validator==2.2.0
+
+# AI/ML Dependencies
+PyMuPDF==1.23.24  # fitz module for PDF processing
+sentence-transformers==2.2.2
+transformers==4.36.2
+torch==2.1.2
+numpy==1.24.4
