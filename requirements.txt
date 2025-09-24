@@ -1,0 +1,27 @@
+# Core FastAPI and dependencies - minimal for deployment
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database - optional for initial deployment
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.7
+alembic==1.13.1
+
+# Basic dependencies
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-decouple==3.8
+
+# Document processing - lightweight versions
+PyPDF2==3.0.1
+python-docx==0.8.11
+
+# HTTP client and utilities
+httpx==0.28.1
+aiofiles==24.1.0
+
+# Validation and settings
+pydantic==2.10.3
+pydantic-settings==2.7.0
+email-validator==2.2.0

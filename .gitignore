@@ -128,12 +128,16 @@ temp/
 
 # Uploaded files and user data
 uploads/
+uploads/*.txt
 *.pdf
 *.docx
 *.doc
-*.txt
 *.csv
 *.xlsx
+
+# Allow requirements.txt files specifically
+!requirements.txt
+!**/requirements.txt
 
 # AI/ML Models (large files)
 *.bin
