@@ -34,11 +34,11 @@ services:
       - key: MAX_FILE_SIZE
         value: "50000000"
       - key: ALLOWED_EXTENSIONS
-        value: "pdf,txt,docx,md"
+        value: '["pdf","txt","docx","md"]'
       - key: UPLOAD_DIR
         value: "uploads"
       - key: ALLOWED_ORIGINS
-        value: "https://buthuruvenkatareddy.github.io,http://localhost:3000,http://127.0.0.1:3000"
+        value: '["https://buthuruvenkatareddy.github.io","http://localhost:3000","http://127.0.0.1:3000"]'
       - key: DEFAULT_PAGE_SIZE
         value: "20"
       - key: MAX_PAGE_SIZE
