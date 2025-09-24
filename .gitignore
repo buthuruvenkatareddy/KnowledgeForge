@@ -145,8 +145,13 @@ uploads/*.txt
 *.h5
 *.pkl
 *.joblib
-models/
+# models/  # Allow database models in backend/app/models/
 .cache/
+
+# AI/ML model directories (not database models)
+/models/
+*/models/*.bin
+*/models/*.safetensors
 
 # Hugging Face cache
 .cache/huggingface/
