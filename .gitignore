@@ -163,7 +163,7 @@ test_uploads/
 *.css.map
 
 # Package-lock files (choose one based on your package manager)
-package-lock.json
+# package-lock.json  # Allow package-lock.json for consistent deployments
 yarn.lock
 pnpm-lock.yaml
 
