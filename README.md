@@ -1,8 +1,8 @@
 # KnowledgeForge
 
-🚀 **Live Demo**: [https://buthuruvenkatareddy.github.io/KnowledgeForge/](https://buthuruvenkatareddy.github.io/KnowledgeForge/)
+"A live demo of the React frontend is deployed at [https://buthuruvenkatareddy.github.io/KnowledgeForge/](https://buthuruvenkatareddy.github.io/KnowledgeForge/) . The full-stack application, including the FastAPI backend and PostgreSQL database, can be run locally by following the setup instructions below. The backend is not deployed live to avoid cloud hosting costs."
 
-## 📋 Project Overview
+##  Project Overview
 
 Built by Venkat Buthuru, KnowledgeForge is an intelligent AI-powered knowledge management system that transforms your documents into an interactive, searchable knowledge base. This application allows users to upload various document formats (PDFs, Word documents, text files) and then engage in natural language conversations with an AI assistant that understands the content of their documents.
 
@@ -148,7 +148,7 @@ Document Preview Features:
 
 ## Deployment
 
-### 🆓 GitHub Pages (100% Free - No External Hosting!)
+###  GitHub Pages (100% Free - No External Hosting!)
 
 **Get a live link directly from GitHub - completely FREE:**
 
@@ -172,9 +172,9 @@ Document Preview Features:
 
 4. **Your site will be live at**: `https://yourusername.github.io/KnowledgeForge/`
 
-**⚠️ Note**: GitHub Pages only hosts static frontend. For full AI functionality, you'll need backend hosting (see options below).
+** Note**: GitHub Pages only hosts static frontend. For full AI functionality, you'll need backend hosting (see options below).
 
-**🎯 Perfect for**: Portfolio showcase, UI demonstration, static content
+** Perfect for**: Portfolio showcase, UI demonstration, static content
 
 ---
 
@@ -190,10 +190,10 @@ This project is configured for easy deployment on Render.com:
    - Render will automatically detect the `render.yaml` configuration
 
 3. **Automatic Configuration**:
-   - ✅ Backend API with health checks
-   - ✅ PostgreSQL database with automatic connection
-   - ✅ Frontend static site with proper routing
-   - ✅ Environment variables automatically configured
+   -  Backend API with health checks
+   -  PostgreSQL database with automatic connection
+   -  Frontend static site with proper routing
+   -  Environment variables automatically configured
 
 4. **API URL Configuration**:
    - Frontend automatically uses relative URLs (`/api/v1`) in production
@@ -204,7 +204,7 @@ This project is configured for easy deployment on Render.com:
 
 If you want to get your own live link, here are other free platforms you can use:
 
-**🔥 Recommended Free Platforms:**
+** Recommended Free Platforms:**
 
 1. **Vercel** (Frontend + Serverless Functions)
    - Free tier with generous limits
@@ -228,7 +228,7 @@ If you want to get your own live link, here are other free platforms you can use
    - Serverless functions for API
    - URL: `https://yourapp.netlify.app`
 
-**📋 Quick Deploy Instructions:**
+** Quick Deploy Instructions:**
 1. Fork this repository to your GitHub
 2. Connect your repository to chosen platform
 3. Set environment variables (DATABASE_URL, OPENAI_API_KEY)
@@ -406,7 +406,7 @@ Once your application is running, you can:
 - **Real-time Responses**: Instant AI responses with typing indicators
 - **Professional Interface**: Modern, gradient-styled UI components
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues and Solutions
 
